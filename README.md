@@ -1,5 +1,7 @@
-# Deep Dye
+#Hair colour changer
+
 DeepDYE is a deep learning model to dye hair un photographs using neural networks.
+
 ## How does it works?
 1. Process the image with segmentation model based on U-Net to locate the hair area.
 2. Color the hair area with the desired color.
@@ -32,12 +34,3 @@ pip install fastai
 ```
 python DeepDYE.py Image.jpg [red|green|blue|pink] -o ImageOut.png
 ```
-
-## Example
-![example before](GeneratedExamples/ac3ba8c8f47c45c3ab3d861baf24ea4a.jpeg)
-![example after](GeneratedExamples/ac3ba8c8f47c45c3ab3d861baf24ea4aProcessed.png)
-
-
-## Train it yourself
-
-You can train the model yourself by following the steps on the jupyter notebook included in the repo. [HairSeg.ipynb](HairSeg.ipynb)

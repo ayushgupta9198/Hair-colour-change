@@ -32,5 +32,7 @@ pip install fastai
 
 ##  Usage
 ```
+All you need to do is create folders like input and output and run the below command to execute:
+
 python DeepDYE.py Image.jpg [red|green|blue|pink] -o ImageOut.png
 ```
